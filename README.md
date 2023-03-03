@@ -1,5 +1,5 @@
 # Sossotin
-Tällä voi piipittää sosseja ja muita [Morse](https://en.wikipedia.org/wiki/Morse_code)-viestejä, sekä "kansainvälisillä" merkeillä että [katakanalla](https://en.wikipedia.org/wiki/Wabun_code).
+Tällä voi piipittää sosseja ja muita [Morse](https://en.wikipedia.org/wiki/Morse_code)-viestejä niin "kansainvälisillä" merkeillä kuin [katakanallakin](https://en.wikipedia.org/wiki/Wabun_code).
 
 Kun nappia painaa, niin vekotin piippaa, tulkkaa painallukset pisteiksi ja viivoiksi, tulkkaa ne kirjoitusmerkeiksi ja kirjoittaa ne LCD-näytölle. Muita [prosignejä](https://en.wikipedia.org/wiki/Prosigns_for_Morse_code) en vaivautunut ohjelmoimaan, kuin nuo **\<DO\>** ja **\<SN\>**, joilla vaihdetaan japaniin ja takaisin.
 
