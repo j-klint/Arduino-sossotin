@@ -27,7 +27,7 @@ constexpr uint8_t UTF16_to_1602(uint16_t c)
 	       (c == 0x00d6 || c == 0x00f6) ? 0b11101111 :                //Öö
 	       (c == 0x00dc || c == 0x00fc) ? 0b11110101 :                //Üü
 	       (c == 0x00d1 || c == 0x00f1) ? 0b11101110 :                //Ññ
-	       (c == L'É'   || c == L'é'  ) ? 'E'        :                //Éé, LCD screen doesn't have this symbol. //TODO: draw an É symbol for the LCD display to display
+	       (c == L'É'   || c == L'é'  ) ? 5          :                //Éé //TODO: draw an É symbol for the LCD display to display
 	       (c == L'´')                  ? '\''       :
 	       (c < 128)                    ? c          :                //non-ASCII chars could be falsely interpreted as katakana
 	       0xff;

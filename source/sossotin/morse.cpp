@@ -41,7 +41,7 @@ namespace
 		{'5',  0, 0 },
 		{'4',  0, 0 },
 		{'3',  0, 0 },
-		{'E',  0, 0 }, //É, LCD doesn't have this symbol by default //TODO: draw an É symbol for the LCD display to display
+		{UTF16_to_1602(L'É'),  0, 0 }, //É, the LCD doesn't have this symbol by default
 		{0xff,17, 0 }, //Eth
 		{'2',  0, 0 },
 		{'?',  0, 0 },
@@ -282,7 +282,7 @@ MorseCode MorseEncode(uint8_t ltr)
 	case UTF16_to_1602(L'ä'): return { 4,0b0101 };
 	case UTF16_to_1602(L'ö'): return { 4,0b1110 };
 	case UTF16_to_1602(L'ü'): return { 4,0b0011 };
-	//case UTF16_to_1602(L'é'): return { 1,0b0    }; //TODO: draw an É symbol for the LCD display to display
+	case UTF16_to_1602(L'é'): return { 5,0b00100};
 	}
 
 	if ( ltr < '\"' || ltr >= '{' )

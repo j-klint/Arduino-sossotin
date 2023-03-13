@@ -89,6 +89,16 @@ void setup()
 	temp[7] = 0b11111;
 	lcd.createChar(15 - 8, temp);
 
+	temp[0] = 0b00010;
+	temp[1] = 0b00100;
+	temp[2] = 0b01110;
+	temp[3] = 0b10001;
+	temp[4] = 0b11111;
+	temp[5] = 0b10000;
+	temp[6] = 0b01110;
+	temp[7] = 0b00000;
+	lcd.createChar(UTF16_to_1602(L'É'), temp);
+	
 	//while ( !Serial ) {}
 }
 
