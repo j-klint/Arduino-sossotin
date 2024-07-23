@@ -19,4 +19,9 @@ Seuraavasta kuvasta pitäisi kytkentöjen käydä ilmi. LCD-näytön tulee tiety
 ![kytkentäkaavio](/pics/kaavio.png)
 
 ## Esimerkki
-Pääsin räpeltämään Kemin Pohjantähti-opiston laitteilla ja tekaisin tällaisen melulaatikon. Kuulokepiuhalla kytketyn morsetusavaimen malli löytyi [Thingiversestä](https://www.thingiverse.com/thing:2870754) ja se 3D-printattiin. Muutaman esittelykuvan laitoin [pics-hakemistoon](/pics) (Ovat isoja!). Jos jaksan, niin ehkä uploadaan videonpätkänkin joskus.
+Pääsin räpeltämään Kemin Pohjantähti-opiston laitteilla ja tekaisin tällaisen melulaatikon. Kuulokepiuhalla kytketyn morsetusavaimen malli löytyi [Thingiversestä](https://www.thingiverse.com/thing:2870754) ja se 3D-printattiin. Muutaman esittelykuvan laitoin [pics-hakemistoon](/pics) (Ovat isoja!).
+
+~~Jos jaksan, niin ehkä uploadaan videonpätkänkin joskus.~~ No niin, vihdoin sain upatuksi esimerkkivideoita toosan toiminnasta:
+
+Morse-napinpainallukset tekstiksi: <https://youtu.be/7Td5ZdxTEKQ><br>
+Teksti morseksi: <https://youtu.be/J4W-AP-CeK8>
